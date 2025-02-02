@@ -1,0 +1,118 @@
+html { scroll-behavior: smooth;}
+body {
+  
+  background-image:url('../background/aboutme.png') ;
+  overflow-x: hidden;
+}
+
+.Qui {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  
+}
+
+.Qui h1 {
+
+  font-size: 80px;
+  color: white;
+  font-family: ashegia;
+  font-weight: 200;
+}
+  .trait {
+
+  
+    width: 900;
+    border:5px solid;
+    height: 0px;
+    border-radius: 10px;
+    color: #E4C7C1;
+  }
+
+  .fleche { 
+
+    color: #D9D9D9;
+    display: block;
+    margin: auto;
+  }
+
+  .photo_moi {
+    
+    width: 280px ;
+  }
+
+  .descriptif {
+    margin-top: 270px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 130px;
+  }
+
+  .descriptif_paragraphes {
+    display: flex ;
+    flex-direction: column ;
+    padding-left: 120px;
+    padding-right:120px ;
+    margin-top: 70px;
+    margin-left: 50px ;
+    color: #f2e4e4;
+    font-family: benage;
+    font-weight: 400;
+
+  }
+
+
+
+  
+
+
+  .sections {
+
+
+    align-items: center;
+    display: flex;
+    flex-direction :row; 
+    justify-content: center;
+  }
+
+  .sections .div1 {
+
+    background-image: url("page_3/img_design.jpg") ;
+
+
+  }
+
+  .sections .div2 {
+    background-image: url("page_3/img_info.jpg") ;
+  }
+
+  .section-work {
+    margin-top: 130px;
+    margin-left: 90px;
+    opacity: 67%;
+    color: white;
+  }
+
+  .sections div {
+    
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sections h2 {
+
+    color: white;
+    opacity: 67%;
+  }
+
+
+  

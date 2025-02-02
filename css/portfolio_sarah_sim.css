@@ -1,0 +1,94 @@
+
+
+  .trait {
+
+    margin-top: 520px;
+    width: 900;
+    border:5px solid;
+    height: 0px;
+    border-radius: 10px;
+    color: #493430;
+  }
+
+  .fleche { 
+
+    color: #D9D9D9;
+    display: block;
+    margin: auto;
+  }
+
+  .photo_moi {
+    
+    width: 280px ;
+  }
+
+  .descriptif {
+    margin-top: 270px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 130px;
+  }
+
+  .descriptif_paragraphes {
+    display: flex ;
+    flex-direction: column ;
+    padding-left: 120px;
+    padding-right:120px ;
+    margin-top: 70px;
+    margin-left: 50px ;
+    color: #AB948F;
+  }
+
+
+
+  
+
+
+  .sections {
+
+
+    align-items: center;
+    display: flex;
+    flex-direction :row; 
+    justify-content: center;
+  }
+
+  .sections .div1 {
+
+    background-image: url("page_3/img_design.jpg") ;
+
+
+  }
+
+  .sections .div2 {
+    background-image: url("page_3/img_info.jpg") ;
+  }
+
+  .section-work {
+    margin-top: 130px;
+    margin-left: 90px;
+    opacity: 67%;
+    color: white;
+  }
+
+  .sections div {
+    
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sections h2 {
+
+    color: white;
+    opacity: 67%;
+  }
+
+
+  
