@@ -1,0 +1,61 @@
+
+body {
+  
+  background-image:url('../background/design.png') ;
+  overflow-x: hidden;
+
+}
+
+
+  .sections {
+
+
+    align-items: center;
+    display: flex;
+    flex-direction :row; 
+    justify-content: center;
+  }
+
+  .sections .div1 {
+    background-image: url("img_design.jpg") ;
+  }
+
+  .sections .div2 {
+    background-image: url("img_info.jpg") ;
+  }
+
+  .sections div {
+    
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sections h2 {
+
+    color: white;
+    opacity: 67%;
+  }
+
+.grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:10px ;
+    grid-row: span;
+    margin: 25px;
+
+}
+
+
+
+.fleche_gauche {
+
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
