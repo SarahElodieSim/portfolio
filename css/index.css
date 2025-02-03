@@ -98,4 +98,17 @@
   }
 
 
+  .bonjour {
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: aliceblue;
+    height: 70vh;
+    font-family: ashegia;
+    font-size: 30px;
+    font-weight: 10;
+    opacity: 40%;
+  }
+
   

@@ -42,6 +42,10 @@ body {
     opacity: 67%;
   }
 
+  .section-design {
+
+    margin-bottom: 80px;
+  }
 .grid {
     margin-top: 80px;
     display: grid;
