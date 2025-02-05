@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Sim Portfolio</title>
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="../../../../portfolio/css/devolver.css">
+    
+</head>
+
+
+<body>
+
+    <div class="grand_ensemble_menu">
+
+        <a href="../../../index.html"> <img src="../../../img/Travail.monogramme_sans_fond.png" > </a>
+
+        <div class="ensemble_menu">
+
+            <nav class="Menu">
+                <a href="../../../contact.html">Contact</a>
+                <a href="../../../aboutme.html">A propos</a>
+                <a href="../../../work.html">Projets</a>
+                <select class="language">
+                    <option value="">English</option>
+                    <option value="">Français</option>
+                  </select>
+                
+            </nav>    
+
+            <!-- 
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        -->
+
+        
+        </div>
+    
+    </div>
+
+
+
+    <h1 class="section-3D"> 
+
+       Refonte du Logo de Devolver
+
+    </h1>
+
+
+    <div class="carroussel">
+  <div class="ensemble-fleche">
+
+
+            <svg style="display: none" class="fleche_gauche" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="fleche_gauche" viewBox="0 0 16 16">
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+            </svg>
+
+            <div class="slide">
+            <div class="card card1"></div>
+            <div class="card card2"></div>
+            <div class="card card3"></div>
+            <div class="card card4"></div>
+            <div class="card card5"></div>
+            <div class="card card6"></div>
+            <div class="card card7"></div>
+            <div class="card card8"></div>
+            <div class="card card9"></div>
+            <div class="card cardX"></div>
+
+
+            </div>
+
+
+            <svg style="display: none;" class="fleche_droite" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg>
+
+
+        </div>  
+        <p>
+            Cette refonte du célèbre logo de la marque Devolver est le fruit d’un travail collaboratif minutieux, visant à moderniser son identité tout en préservant son essence. Nous avons joué sur le jeu de mots « Devolve » (évoluer en anglais) pour insuffler un nouvel élan visuel à la marque.
+
+Nous avons conservé le contour d’origine, mais en le limitant aux premières et dernières lettres (« D » et « R »). Ce choix n’est pas anodin : il permet de structurer le logo en créant un point d’ancrage visuel, tout en allégeant le reste des lettres pour une esthétique plus épurée et contemporaine.
+
+L’aspect ruban intégré dans le « D » et le « R » apporte une touche dynamique et fluide, évoquant le mouvement et la transformation, en cohérence avec l’idée d’évolution sous-jacente au nom de la marque. Ce design confère également une impression de souplesse et d’adaptabilité, renforçant ainsi l’identité visuelle et son impact sur différents supports.
+
+En simplifiant la typographie et en jouant sur ces éléments graphiques, nous avons cherché à rendre le logo plus moderne, identifiable et modulable, tout en conservant des repères familiers pour le public
+
+        </p>
+
+       
+
+    
+</div>
+
+
+        <a href="../../../../portfolio/work/design/logo.html"> ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="fleche_gauche_sortie" viewBox="0 0 16 16">
+            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+        </svg> </a>
+
+  <script>
+        var tab = document.querySelectorAll (".card");
+        var flecheg = document.querySelector(".fleche_gauche");
+        var fleched = document.querySelector(".fleche_droite");
+        var slide = document.querySelector(".slide");
+        var indice_element_active = 0;
+
+        function augmenter (variable) {
+            variable.style="z-index:2;width:calc(2*100%)";
+        }
+
+        function diminuer (variable) {
+            variable.style="z-index:1;";
+        }
+
+        window.onload=()=>{
+            augmenter (tab[indice_element_active]);
+        }
+
+        let lastClick = 0;
+        let cooldown = 500;
+            
+        flecheg.onclick=()=>{
+
+            console.log ("indice ", indice_element_active)
+
+            if(indice_element_active!=0) {
+
+                if (Date.now () - lastClick < cooldown) return;
+                    lastClick = Date.now ();
+
+                diminuer (tab[indice_element_active]);
+
+                augmenter(tab[indice_element_active-1]);
+                slide.scrollBy(-610,0);
+                indice_element_active=indice_element_active-1;
+            }
+        }
+    
+
+        fleched.onclick=()=>{
+            
+            if(indice_element_active!=0) {
+
+                if (Date.now () - lastClick < cooldown) return;
+                lastClick = Date.now ();
+
+                diminuer (tab[indice_element_active]);
+                augmenter(tab[indice_element_active+1]);
+                slide.scrollBy(610,0);
+                indice_element_active=indice_element_active+1;
+
+            }
+        }
+        
+
+
+        
+  </script>
+
+        
+  
+</body>
+
+
+
+
+
+</html>
