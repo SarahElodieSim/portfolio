@@ -1,0 +1,212 @@
+
+body {
+  
+  background-image:url('../background/3D.png') ;
+  overflow-x: hidden;
+}
+
+  .trait {
+    margin-top: 520px;
+    width: 900;
+    border:5px solid;
+    height: 0px;
+    border-radius: 10px;
+    color: #493430;
+  }
+
+  .fleche { 
+    color: #D9D9D9;
+    display: block;
+    margin: auto;
+  }
+
+  
+
+  .descriptif {
+    margin-top: 270px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 130px;
+  }
+
+  .descriptif_paragraphes {
+    display: flex ;
+    flex-direction: column ;
+    padding-left: 120px;
+    padding-right:120px ;
+    margin-top: 70px;
+    margin-left: 50px ;
+    color: #AB948F;
+  }
+
+
+  .sections {
+
+
+    align-items: center;
+    display: flex;
+    flex-direction :row; 
+    justify-content: center;
+  }
+
+  .sections .div1 {
+    background-image: url("../img/img_design.jpg") ;
+  }
+
+  .sections .div2 {
+    background-image: url("../img/img_design.jpg") ;
+  }
+
+  .section-3D {
+    margin-top: 100px;
+   text-align: center;
+    color: #f2e4e4;
+    text-decoration: underline;
+    font-family: ashegia;
+    font-weight: 100;
+  }
+
+.slide {
+
+  width: 700px ;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+ 
+.ensemble-fleche {
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+
+::-webkit-scrollbar {
+
+  display: none;
+}
+
+.card {
+  
+  min-width: 600px;
+  min-height: 400px;
+  transition-duration: 1000ms;
+  margin: 5px;
+  z-index: 1;
+}
+
+.card1 {
+
+  background: url("../img/kafekouche1.png");
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card2 {
+
+  background: url("../img/kafekouche_site1.png");
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card3 {
+
+  background: url("../img/kafekouche_site2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.card4 {
+
+  background: url("../img/kafekouche_site3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.card5 {
+
+  background: url("../img/kafekouche_site4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.card6 {
+
+  background: url("../img/kafekouche_site5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.card7{
+
+  background: url("../img/ambiance_kafekouche.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+
+
+.carroussel {
+
+  background-color: rgba(0, 0, 0, 0.50);
+  padding-bottom: 70px;
+  margin-bottom: 100px;
+}
+
+
+.fleche_gauche {
+
+  color: #FFFEFD;
+  padding-right: 20px;
+}
+
+.fleche_droite {
+
+  color : #FFFEFD;
+}
+
+.carroussel p, .carroussel ul {
+
+  opacity: none;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+  text-align: center;
+  color: #D9D9D9;
+  font-family: benage;
+  
+}
+
+.carroussel ul { 
+  text-align: start;
+  color:#D9D9D9 ;
+  
+}
+
+
+
+.fleche_gauche_sortie {
+
+  color: #e6ccc7;
+
+  margin-bottom:100px;
+  margin-left: 60px;
+}
+
+p {
+
+  font-family: benage;
+}

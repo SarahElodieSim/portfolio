@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Sim Portfolio</title>
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="../../../../portfolio/css/spectacle.css">
+    
+</head>
+
+
+<body>
+
+    <div class="grand_ensemble_menu">
+
+        <a href="../../../index.html"> <img src="../../../img/Travail.monogramme_sans_fond.png" > </a>
+
+        <div class="ensemble_menu">
+
+            <nav class="Menu">
+                <a href="../../../contact.html">Contact</a>
+                <a href="../../../aboutme.html">A propos</a>
+                <a href="../../../work.html">Projets</a>
+                <select class="language">
+                    <option value="">English</option>
+                    <option value="">Français</option>
+                  </select>
+                
+            </nav>    
+
+            <!-- 
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        -->
+
+        
+        </div>
+    
+    </div>
+
+
+
+    <h1 class="section-3D"> 
+
+       Maquette de siteweb sur un spectacle de danse en hommage du cancer du sein
+
+    </h1>
+
+
+    <div class="carroussel">
+  <div class="ensemble-fleche">
+
+
+            <svg class="fleche_gauche" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="fleche_gauche" viewBox="0 0 16 16">
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+            </svg>
+
+            <div class="slide">
+            <div class="card card1"></div>
+            <video class="card card1" width="600" height="500" controls> <source 
+                src="../../../img/spectacle_cancer2.mp4"> </video>
+        
+            <div class="card card3"></div>
+            <div class="card card4"></div>
+            <div class="card card5"></div>
+            <div class="card card6"></div>
+            <div class="card card7"></div>
+            <div class="card card8"></div>
+            <div class="card card9"></div>
+            <div class="card cardX"></div>
+
+
+            </div>
+
+
+            <svg class="fleche_droite" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg>
+
+
+        </div>  
+        <p>
+            Cette maquette de site web, conçue sur Figma, s’inscrit dans un projet profondément symbolique : un spectacle de danse mettant en scène des hommes et des femmes ayant affronté le cancer du sein. Ce spectacle est un hommage vibrant à ceux qui traversent ou ont traversé cette épreuve, portant un message d’espoir, de résilience et d’acceptation.
+        </p>
+
+        <p>
+            La direction artistique adopte une esthétique sombre, évoquant l’atmosphère théâtrale, avec un contour blanc omniprésent sur chaque page, rappelant les projecteurs d’un spectacle en pleine lumière. Le fond est enrichi de formes organiques dans des teintes bleu-violet ponctuées de touches dorées, chacune de ces couleurs ayant une signification forte et porteuse de sens :
+        </p>
+
+        <ul class="liste">
+            <li>Violet : Symbole de transformation et de spiritualité, il incarne la guérison émotionnelle, le courage et l’évolution personnelle.
+            </li>
+            <li>Bleu : Associé à la sérénité et à la confiance, il reflète la force intérieure et la paix après une épreuve difficile.
+            </li>
+            <li>Doré : Cette touche lumineuse représente l’espoir, la victoire et la lumière retrouvée après l’obscurité. Elle est également liée à la noblesse et à la force du combat contre la maladie.
+            </li>
+            <li>Noir : S’il symbolise les épreuves, la souffrance et la peur, le noir exprime également l’élégance et la force intérieure. Il met en valeur les autres couleurs et souligne leur puissance émotionnelle.
+            </li>
+            <li>Blanc : Symbole de résilience et de renouveau, il évoque un nouveau départ et la lumière au bout du tunnel.
+            </li>
+        </ul>
+        
+        <p>
+            L’interface a été pensée pour être simple et intuitive, afin de permettre à l’utilisateur de s’informer facilement sur les spectacles du même genre et d’accéder sans difficulté à la section de réservation. Des tests utilisateurs seront prochainement menés pour affiner et perfectionner l’expérience utilisateur.
+
+        </p>
+
+        
+
+    
+</div>
+
+
+        <a href="../../../../portfolio/work/design/webdesign.html"> ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="fleche_gauche_sortie" viewBox="0 0 16 16">
+            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+        </svg> </a>
+
+  <script>
+        var tab = document.querySelectorAll (".card");
+        var flecheg = document.querySelector(".fleche_gauche");
+        var fleched = document.querySelector(".fleche_droite");
+        var slide = document.querySelector(".slide");
+        var indice_element_active = 0;
+
+        function augmenter (variable) {
+            variable.style="z-index:2;width:calc(2*100%)";
+        }
+
+        function diminuer (variable) {
+            variable.style="z-index:1;";
+        }
+
+        window.onload=()=>{
+            augmenter (tab[indice_element_active]);
+        }
+
+        let lastClick = 0;
+        let cooldown = 500;
+            
+        flecheg.onclick=()=>{
+
+            console.log ("indice ", indice_element_active)
+
+            if(indice_element_active!=0) {
+
+                if (Date.now () - lastClick < cooldown) return;
+                    lastClick = Date.now ();
+
+                diminuer (tab[indice_element_active]);
+
+                augmenter(tab[indice_element_active-1]);
+                slide.scrollBy(-610,0);
+                indice_element_active=indice_element_active-1;
+            }
+        }
+    
+
+        fleched.onclick=()=>{
+            
+            if(indice_element_active!=3) {
+
+                if (Date.now () - lastClick < cooldown) return;
+                lastClick = Date.now ();
+
+                diminuer (tab[indice_element_active]);
+                augmenter(tab[indice_element_active+1]);
+                slide.scrollBy(610,0);
+                indice_element_active=indice_element_active+1;
+
+            }
+        }
+        
+
+
+        
+  </script>
+
+        
+  
+</body>
+
+
+
+
+
+</html>
