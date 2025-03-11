@@ -1,14 +1,10 @@
 
+body {
   
-  
-  
-  body {
-  
-    background-image:url('../../background/index.png') ;
-    overflow-x: hidden;
+  background-image:url('../../background/3D.png') ;
+  overflow-x: hidden;
 }
   .trait {
-
     margin-top: 520px;
     width: 900;
     border:5px solid;
@@ -18,16 +14,12 @@
   }
 
   .fleche { 
-
     color: #D9D9D9;
     display: block;
     margin: auto;
   }
 
-  .photo_moi {
-    
-    width: 280px ;
-  }
+  
 
   .descriptif {
     margin-top: 270px;
@@ -48,10 +40,6 @@
   }
 
 
-
-  
-
-
   .sections {
 
 
@@ -62,21 +50,20 @@
   }
 
   .sections .div1 {
-
-    background-image: url("page_3/img_design.jpg") ;
-
-
+    background-image: url("img_design.jpg") ;
   }
 
   .sections .div2 {
-    background-image: url("page_3/img_info.jpg") ;
+    background-image: url("img_info.jpg") ;
   }
 
-  .section-work {
-    margin-top: 130px;
-    margin-left: 90px;
-    opacity: 67%;
-    color: white;
+  .section-design {
+    margin-top: 100px;
+   text-align: center;
+    color: #f2e4e4;
+    text-decoration: underline;
+    font-family: ashegia;
+    font-weight: 100;
   }
 
   .sections div {
@@ -97,18 +84,38 @@
     opacity: 67%;
   }
 
+.grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:10px ;
+}
 
-  .bonjour {
+.grid div {
 
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    color: aliceblue;
-    height: 70vh;
-    font-family: ashegia;
-    font-size: 30px;
-    font-weight: 10;
-    opacity: 40%;
-  }
+  display: flex;
+   background-color: #AB948F;
+   align-items: center;
+   justify-content: center;
+   height: 300px;
 
-  
+}
+
+
+.fleche_gauche {
+
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.grid div {
+
+  font-size: 40px;
+  font-family: benage;
+  font-weight: 100s;
+  color:#f2e4e4 ;
+}
+
+.grid a  {
+  text-decoration: none;
+}

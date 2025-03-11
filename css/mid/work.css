@@ -1,12 +1,11 @@
 
+
+body {
   
-  
-  
-  body {
-  
-    background-image:url('../../background/index.png') ;
-    overflow-x: hidden;
+  background-image:url('../../background/work.png') ;
+  overflow-x: hidden;
 }
+
   .trait {
 
     margin-top: 520px;
@@ -49,7 +48,12 @@
 
 
 
-  
+  .sections h2 {
+
+    font-family: benage;
+    color: azure;
+    font-weight: 100;
+  }
 
 
   .sections {
@@ -63,27 +67,28 @@
 
   .sections .div1 {
 
-    background-image: url("page_3/img_design.jpg") ;
+    background-image: url("../img/img_design.jpg") ;
 
 
   }
 
   .sections .div2 {
-    background-image: url("page_3/img_info.jpg") ;
+    background-image: url("../img/img_info.jpg") ;
   }
 
   .section-work {
     margin-top: 130px;
     margin-left: 90px;
-    opacity: 67%;
-    color: white;
+    color: #f2e4e4;
+    font-family: ashegia;
+    font-weight: 100;
   }
 
-  .sections div {
+  .sections div, .sections a {
     
     margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
     width: 50%;
     height: 280px;
     display: flex;
@@ -91,24 +96,26 @@
     align-items: center;
   }
 
-  .sections h2 {
+  .sections h3 {
 
     color: white;
-    opacity: 67%;
+    font-size: 50px;
   }
 
-
-  .bonjour {
-
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    color: aliceblue;
-    height: 70vh;
-    font-family: ashegia;
-    font-size: 30px;
-    font-weight: 10;
-    opacity: 40%;
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 55%;
+    
+  
   }
+  
+  .card h3 {
+    position: absolute;
+    
+  }
+  
+
 
   

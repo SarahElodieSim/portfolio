@@ -1,12 +1,9 @@
-
+body {
   
-  
-  
-  body {
-  
-    background-image:url('../../background/index.png') ;
-    overflow-x: hidden;
+  background-image:url('../../background/contact.png') ;
+  overflow-x: hidden;
 }
+
   .trait {
 
     margin-top: 520px;
@@ -58,12 +55,14 @@
     align-items: center;
     display: flex;
     flex-direction :row; 
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .sections .div1 {
 
     background-image: url("page_3/img_design.jpg") ;
+    color: F5F5F5;
+    outline: F5F5F5;
 
 
   }
@@ -75,20 +74,22 @@
   .section-work {
     margin-top: 130px;
     margin-left: 90px;
-    opacity: 67%;
-    color: white;
+    color: #f2e4e4;
+    font-family: ashegia;
+    font-weight: 100;
   }
 
-  .sections div {
+  .sections svg {
     
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 80px;
     margin-right: 10px;
     width: 50%;
     height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: F5F5F5;
   }
 
   .sections h2 {
@@ -97,18 +98,5 @@
     opacity: 67%;
   }
 
-
-  .bonjour {
-
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    color: aliceblue;
-    height: 70vh;
-    font-family: ashegia;
-    font-size: 30px;
-    font-weight: 10;
-    opacity: 40%;
-  }
 
   
