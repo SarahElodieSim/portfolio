@@ -51,11 +51,11 @@ body {
   }
 
   .sections .div1 {
-    background-image: url("../img/img_design.jpg") ;
+    background-image: url("../../img/img_design.jpg") ;
   }
 
   .sections .div2 {
-    background-image: url("../img/img_design.jpg") ;
+    background-image: url("../../img/img_design.jpg") ;
   }
 
   .section-3D {
@@ -103,7 +103,7 @@ body {
 
 .card1 {
 
-  background: url("../img/portfolio_figma1.png");
+  background: url("../../img/portfolio_figma1.png");
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body {
 
 .card2 {
 
-  background: url("../img/portfolio_figma2.png");
+  background: url("../../img/portfolio_figma2.png");
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@ body {
 
 .card3 {
 
-  background: url("../img/portfolio_htm.png");
+  background: url("../../img/portfolio_htm.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 90%;

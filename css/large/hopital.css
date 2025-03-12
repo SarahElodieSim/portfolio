@@ -103,7 +103,7 @@ body {
 
 .card1 {
 
-  background: url("../img/meeples_M.png");
+  background: url("../../img/meeples_M.png");
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body {
 
 .card2 {
 
-  background: url("../img/meeples_3tetes.png");
+  background: url("../../img/meeples_3tetes.png");
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@ body {
 
 .card3 {
 
-  background: url("../img/logo_meeples_3_tetes.png");
+  background: url("../../img/logo_meeples_3_tetes.png");
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
