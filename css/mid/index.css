@@ -1,114 +1,121 @@
+/* Fichier: mid.css */
 
-  
-  
-  
-  body {
-  
-    background-image:url('../../background/index.png') ;
-    overflow-x: hidden;
+/* Style global pour le fond */
+body {
+  background-image: url('../../background/index.png');
+  overflow-x: hidden;
 }
-  .trait {
 
-    margin-top: 520px;
-    width: 900;
-    border:5px solid;
-    height: 0px;
-    border-radius: 10px;
-    color: #493430;
-  }
+/* Centrage du H1 */
+.bonjour h1 {
+  text-align: center;   /* Centrer le texte horizontalement */
+  margin-top: 0;        /* Annuler le marges par défaut */
+  color: aliceblue;
+  font-family: ashegia;
+  font-size: 45px;      /* Augmentation de la taille du texte sur les écrans moyens */
+  font-weight: 10;
+  opacity: 40%;
+}
 
-  .fleche { 
+/* Ligne horizontale */
+.trait {
+  margin-top: 480px;
+  width: 80%;
+  border: 5px solid;
+  height: 0px;
+  border-radius: 10px;
+  color: #493430;
+}
 
-    color: #D9D9D9;
-    display: block;
-    margin: auto;
-  }
+/* Flèche */
+.fleche {
+  color: #D9D9D9;
+  display: block;
+  margin: auto;
+}
 
-  .photo_moi {
-    
-    width: 280px ;
-  }
+/* Photo de profil */
+.photo_moi {
+  width: 250px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
-  .descriptif {
-    margin-top: 270px;
-    margin-left: 120px;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 130px;
-  }
+/* Section descriptif */
+.descriptif {
+  margin-top: 220px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .descriptif_paragraphes {
-    display: flex ;
-    flex-direction: column ;
-    padding-left: 120px;
-    padding-right:120px ;
-    margin-top: 70px;
-    margin-left: 50px ;
-    color: #AB948F;
-  }
+/* Descriptif par paragraphes */
+.descriptif_paragraphes {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  color: #AB948F;
+}
 
+/* Sections principales */
+.sections {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+/* Divs des sections */
+.sections .div1,
+.sections .div2 {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 48%;  /* Ajustement pour les écrans de taille moyenne */
+  margin-top: 20px;
+}
 
-  
+/* Section des projets */
+.section-work {
+  margin-top: 120px;
+  margin-left: 40px;
+  margin-right: 40px;
+  opacity: 67%;
+  color: white;
+  text-align: center;
+}
 
+/* Conteneur des sections */
+.sections div {
+  margin-top: 40px;
+  width: 48%;  /* Ajustement pour les écrans de taille moyenne */
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .sections {
+/* Titres des sections */
+.sections h2 {
+  color: white;
+  opacity: 67%;
+}
 
-
-    align-items: center;
-    display: flex;
-    flex-direction :row; 
-    justify-content: center;
-  }
-
-  .sections .div1 {
-
-    background-image: url("page_3/img_design.jpg") ;
-
-
-  }
-
-  .sections .div2 {
-    background-image: url("page_3/img_info.jpg") ;
-  }
-
-  .section-work {
-    margin-top: 130px;
-    margin-left: 90px;
-    opacity: 67%;
-    color: white;
-  }
-
-  .sections div {
-    
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 50%;
-    height: 280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .sections h2 {
-
-    color: white;
-    opacity: 67%;
-  }
-
-
-  .bonjour {
-
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    color: aliceblue;
-    height: 70vh;
-    font-family: ashegia;
-    font-size: 30px;
-    font-weight: 10;
-    opacity: 40%;
-  }
-
-  
+/* Section Bonjour */
+.bonjour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  height: 60vh;  /* Augmentation de la hauteur pour un meilleur rendu sur tablette */
+  font-family: ashegia;
+  font-weight: 10;
+  opacity: 100%;
+}
