@@ -94,8 +94,6 @@ body {
 
 .card {
   
-  min-width: 600px;
-  min-height: 400px;
   transition-duration: 1000ms;
   margin: 5px;
   z-index: 1;
@@ -103,9 +101,14 @@ body {
 
 .card1 {
 
-  background-size: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8%;
+}
+
+.card1 video {
+    width: 100%;
 }
 
 
@@ -132,8 +135,8 @@ body {
 .carroussel p {
 
   opacity: none;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 50px;
   text-align: center;
   color: #D9D9D9;

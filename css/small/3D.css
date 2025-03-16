@@ -87,7 +87,6 @@ body {
 .grid {
     margin-top: 80px;
     display: grid;
-    grid-template-columns: 50% 50%;
     grid-gap:10px ;
 }
 

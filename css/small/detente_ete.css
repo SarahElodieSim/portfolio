@@ -104,16 +104,16 @@ body {
 .card1 {
 
   background: url("../../img/detente_ete_moodboard.png");
-  background-size: 60%;
-  background-position: center;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
 .card2 {
 
   background: url("../../img/detente_ete_couleurs.png");
-  background-position: center;
-  background-size: 60%;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
@@ -121,16 +121,16 @@ body {
 
   background: url("../../img/detente_ete_typographie.png");
   background-size: cover;
-  background-position: center;
-  background-size: 60%;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 .card4 {
 
   background: url("../../img/detente_ete_logo.png");
   background-size: cover;
-  background-position: center;
-  background-size: 60%;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
@@ -138,8 +138,8 @@ body {
 
   background: url("../../img/detente_ete_logo_interdits.png");
   background-size: cover;
-  background-position: center;
-  background-size: 60%;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
@@ -147,8 +147,8 @@ body {
 
   background: url("../../img/detente_ete_motifs.png");
   background-size: cover;
-  background-position: center;
-  background-size: 60%;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
@@ -156,8 +156,8 @@ body {
 
   background: url("../../img/detente_ete_iconographie.png");
   background-size: cover;
-  background-position: center;
-  background-size: 60%;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
@@ -166,8 +166,8 @@ body {
 
   background: url("../../img/detente_ete_mock_up1.png");
   background-size: cover;
-  background-position: center;
-  background-size: 60%;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
@@ -175,8 +175,8 @@ body {
 
   background: url("../../img/detente_ete_mock_up2.png");
   background-size: cover;
-  background-position: center;
-  background-size: 60%;
+  background-position: 20;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
@@ -184,7 +184,7 @@ body {
 
   background: url("../../img/detente_ete_webdsign0.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -193,7 +193,7 @@ body {
 
   background: url("../../img/detente_ete_webdesign1.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -202,7 +202,7 @@ body {
 
   background: url("../../img/detente_webdesign2.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -211,7 +211,7 @@ body {
 
   background: url("../../img/detente_ete_webdesign3.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -240,8 +240,8 @@ body {
 .carroussel p {
 
   opacity: none;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 50px;
   text-align: center;
   color: #D9D9D9;

@@ -105,14 +105,14 @@ body {
 
   background: url("../../img/affiche1_jo.png");
   background-size: 40%;
-  background-position: center;
+  background-position: 20;
   background-repeat: no-repeat;
 }
 
 .card2 {
 
   background: url("../../img/affiche2_jo.png");
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -121,7 +121,7 @@ body {
 
   background: url("../../img/typo_jo.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -129,7 +129,7 @@ body {
 
   background: url("../../img/test_logo_aile_final_jo.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -138,7 +138,7 @@ body {
 
   background: url("../../img/mock-up_casquette.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -147,7 +147,7 @@ body {
 
   background: url("../../img/mock-up_t_shirt.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -156,7 +156,7 @@ body {
 
   background: url("../../img/coq_mascotte_finale_.png");
   background-size: cover;
-  background-position: center;
+  background-position: 20;
   background-size: 40%;
   background-repeat: no-repeat;
 }
@@ -185,8 +185,8 @@ body {
 .carroussel p {
 
   opacity: none;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 50px;
   text-align: center;
   color: #D9D9D9;
