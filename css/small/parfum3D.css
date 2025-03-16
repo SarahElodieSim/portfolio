@@ -104,7 +104,7 @@ body {
 .card1 {
 
   background: url("");
-  background-size: 70%;
+  background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -112,8 +112,8 @@ body {
 .card2 {
 
   background: url("../../img/image1parfum3D.png");
-  background-position: center;
-  background-size: 70%;
+  background-position:0;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 
@@ -121,16 +121,16 @@ body {
 
   background: url("../../img/image2_parfum3D.png");
   background-size: cover;
-  background-position: center;
-  background-size: 70%;
+  background-position:0;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 .card4 {
 
   background: url("../../img/image3_parfum3D.png");
   background-size: cover;
-  background-position: center;
-  background-size: 70%;
+  background-position:0;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 
