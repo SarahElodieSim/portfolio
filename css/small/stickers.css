@@ -104,16 +104,16 @@ body {
 .card1 {
 
   background: url("../../img/roberta_primeveres.png");
-  background-size: 100%;
-  background-position: center;
+  background-size: 40%;
+  background-position: 20;
   background-repeat: no-repeat;
 }
 
 .card2 {
 
   background: url("../../img/chat-mimules.png");
-  background-position: center;
-  background-size: 100%;
+  background-size: 40%;
+  background-position: 20;
   background-repeat: no-repeat;
 }
 
@@ -121,8 +121,8 @@ body {
 
   background: url("../../img/chat_mimule-v2.png");
   background-size: cover;
-  background-position: center;
-  background-size: 100%;
+  background-size: 40%;
+  background-position: 20;
   background-repeat: no-repeat;
 }
 

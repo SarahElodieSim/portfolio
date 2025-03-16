@@ -101,12 +101,14 @@ body {
   z-index: 1;
 }
 
-.card1 {
+.card1 video {
 
-  background: url("");
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 300px;
+
+}
+.card1{
+display: flex;
+align-items: center;
 }
 
 .card2 {

@@ -101,11 +101,15 @@ body {
   z-index: 1;
 }
 
+.card1 video {
+
+  width: 300px;
+}
 .card1 {
 
-  background-size: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
+ display: flex;
+ align-items: center;
+ margin-left: 08%;
 }
 
 

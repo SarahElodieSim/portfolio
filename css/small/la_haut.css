@@ -101,13 +101,16 @@ body {
   z-index: 1;
 }
 
+.card1 video {
+
+  width: 300px;
+}
 .card1 {
 
-  background-size: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
+ display: flex;
+ align-items: center;
+ margin-left: 08%;
 }
-
 
 
 
@@ -152,4 +155,12 @@ body {
 p {
 
   font-family: benage;
+}
+
+h1 {
+
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+
 }

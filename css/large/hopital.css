@@ -92,38 +92,20 @@ body {
   display: none;
 }
 
-.card {
-  
-  min-width: 600px;
-  min-height: 400px;
-  transition-duration: 1000ms;
-  margin: 5px;
-  z-index: 1;
-}
-
 .card1 {
 
-  background: url("../../img/meeples_M.png");
-  background-size: 90%;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8%;
 }
 
-.card2 {
-
-  background: url("../../img/meeples_3tetes.png");
-  background-size: 90%;
-  background-position: center;
-  background-repeat: no-repeat;
+.card1 video {
+  width: 100%;
 }
 
-.card3 {
 
-  background: url("../../img/logo_meeples_3_tetes.png");
-  background-size: 90%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 
 
 

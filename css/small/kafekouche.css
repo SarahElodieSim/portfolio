@@ -105,7 +105,7 @@ body {
 
   background: url("../../img/kafekouche1.png");
   background-size: 40%;
-  background-position: center;
+  background-position: 20;
   background-repeat: no-repeat;
 }
 
@@ -113,48 +113,58 @@ body {
 
   background: url("../../img/kafekouche_site1.png");
   background-size: 40%;
-  background-position: center;
+  background-position: 20;
   background-repeat: no-repeat;
 }
 
 .card3 {
 
   background: url("../../img/kafekouche_site2.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 20;
+  background-repeat: no-repeat;
+  
 }
 
 .card4 {
 
   background: url("../../img/kafekouche_site3.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 20;
+  background-repeat: no-repeat;
+ 
 }
 
 .card5 {
 
   background: url("../../img/kafekouche_site4.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 20;
+  background-repeat: no-repeat;
+  
 }
 
 .card6 {
 
   background: url("../../img/kafekouche_site5.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 20;
+  background-repeat: no-repeat;
+  
 }
 
 .card7{
 
   background: url("../../img/ambiance_kafekouche.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 20;
+  background-repeat: no-repeat;
+  
+}
+
+h1{
+font-size: 20px;
+
 }
 
 

@@ -105,7 +105,7 @@ body {
 
   background: url("../../img/ymeet1.png");
   background-size: 40%;
-  background-position: center;
+  background-position: 0;
   background-repeat: no-repeat;
 }
 
@@ -113,48 +113,50 @@ body {
 
   background: url("../../img/ymeet_2.png");
   background-size: 40%;
-  background-position: center;
+  background-position: 10;
   background-repeat: no-repeat;
 }
 
 .card3 {
 
   background: url("../../img/ymeet3.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 10;
+  background-repeat: no-repeat;
+
 }
 
 .card4 {
 
   background: url("../../img/ymeet4.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 10;
+  background-repeat: no-repeat;
+  
 }
 
 .card5 {
 
   background: url("../../img/ymeet5.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 10;
+  background-repeat: no-repeat;
 }
 
 .card6 {
 
   background: url("../../img/ymeet6.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 10;
+  background-repeat: no-repeat;
 }
 
 .card7{
 
   background: url("../../img/ymeet7.png");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 40%;
+  background-position: 10;
+  background-repeat: no-repeat;
 }
 
 

@@ -104,15 +104,17 @@ body {
 .card1 {
 
   background: url("../../img/homme_ballon.png");
-  background-size: 60%;
-  background-position: center;
+  background-size: 40%;
+  background-position: 50;
   background-repeat: no-repeat;
 }
 
+h1{
 
-
-
-
+font-size: 20px;
+display: flex;
+justify-content:center ;
+}
 
 .carroussel {
 

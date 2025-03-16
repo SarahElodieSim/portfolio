@@ -104,8 +104,8 @@ body {
 .card1 {
 
   background: url("../../../portfolio/img/3d_illustrator.png");
-  background-size: 100%;
-  background-position: center;
+  background-size: 55%;
+  background-position: 10;
   background-repeat: no-repeat;
 }
 

@@ -78,6 +78,7 @@ body {
 }
 
 .grid {
+  display: grid;
   grid-template-columns: 100%;
   grid-gap: 5px;
   margin: 25px;

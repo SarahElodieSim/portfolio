@@ -104,36 +104,42 @@ body {
 .card1 {
 
   background: url("../../img/projet_spectacle_cancer.png");
-  background-size: 100%;
-  background-position: center;
+  background-size: 50%;
+  background-position: -05;
   background-repeat: no-repeat;
 }
 
+.card2 video {
+
+  width: 300px;
+}
 .card2 {
 
- 
-  background-size: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
+ display: flex;
+ align-items: center;
+ margin-left: 08%;
 }
+
 
 .card3 {
 
   background: url("../../img/projet_spectacle_cancer3.png");
-  background-position: center;
+  background-size: 50%;
+  background-position: -05;
   background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .card4 {
 
   background: url("../../img/projet_spectacle_cancer4.png");
-  background-position: center;
+  background-size: 50%;
+  background-position: -05;
   background-repeat: no-repeat;
-  background-size: 100%;
 }
 
-
+h1{
+font-size: 12px ;
+}
 
 
 .carroussel {

@@ -101,14 +101,16 @@ body {
   z-index: 1;
 }
 
+.card1 video {
+
+  width: 540px;
+}
 .card1 {
 
-  background: url("");
-  background-size: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
+ display: flex;
+ align-items: center;
+ margin-left: 10%;
 }
-
 .card2 {
 
   background: url("../../img/image1parfum3D.png");

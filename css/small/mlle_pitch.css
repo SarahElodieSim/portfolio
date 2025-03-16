@@ -105,7 +105,7 @@ body {
 
   background: url("../../img/mlle_pitch1.jpg");
   background-size: 40%;
-  background-position: center;
+  background-position: 10;
   background-repeat: no-repeat;
 }
 
@@ -113,7 +113,7 @@ body {
 
   background: url("../../img/mlle_pitch2.jpg");
   background-size: 40%;
-  background-position: center;
+  background-position: 10;
   background-repeat: no-repeat;
 }
 
@@ -121,7 +121,7 @@ body {
 
   background: url("../../img/affiche_sida_cactus.jpg");
   background-size: 40%;
-  background-position: center;
+  background-position: 10;
   background-repeat: no-repeat;
 }
 
@@ -129,7 +129,7 @@ body {
 
   background: url("../../img/affiche_sida_6.jpg");
   background-size: 40%;
-  background-position: center;
+  background-position: 10;
   background-repeat: no-repeat;
 }
 

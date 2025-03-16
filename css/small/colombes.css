@@ -104,8 +104,8 @@ body {
 .card1 {
 
   background: url("../../img/peinture_colombes.jpg");
-  background-size: 50%;
-  background-position: center;
+  background-size: 40%;
+  background-position: 50;
   background-repeat: no-repeat;
 }
 
