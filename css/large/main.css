@@ -26,7 +26,6 @@ body {
 .grand_ensemble_menu {
   align-items: center;
   display: flex;
-  justify-content: space-between;
   padding: 30px 50px;
   font-family: benage;
 }
@@ -37,22 +36,14 @@ body {
 
 .grand_ensemble_menu img {
   width: 80px;
+  margin-right: 90px;
 }
 
 .ensemble_menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
+  width: 100%;
   margin-top: 20px;
 }
 
-.Menu {
-  display: flex;
-  width: 80%;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 .Menu a {
   font-size: 20px;
@@ -122,8 +113,8 @@ body {
 .Menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .Menu a {
@@ -146,7 +137,7 @@ body {
 
 /* Grille - 3 colonnes pour les grands écrans */
 .grid {
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 50% 50%;
   grid-gap: 20px;
   margin: 30px;
 }

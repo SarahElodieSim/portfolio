@@ -93,9 +93,7 @@ body {
 }
 
 .card {
-  
-  min-width: 600px;
-  min-height: 400px;
+  min-height: 200px;
   transition-duration: 1000ms;
   margin: 5px;
   z-index: 1;

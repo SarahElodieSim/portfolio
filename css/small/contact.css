@@ -56,6 +56,8 @@ body {
     display: flex;
     flex-direction :row; 
     justify-content: flex-start;
+    align-content: center;
+    align-items: center;
   }
 
   .sections .div1 {
@@ -63,33 +65,36 @@ body {
     background-image: url("page_3/img_design.jpg") ;
     color: F5F5F5;
     outline: F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
   }
 
   .sections .div2 {
     background-image: url("page_3/img_info.jpg") ;
+    display: flex;
+    justify-content: center; 
   }
 
   .section-work {
     margin-top: 130px;
-    margin-left: 90px;
     color: #f2e4e4;
     font-family: ashegia;
     font-weight: 100;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
   }
 
   .sections svg {
     
-    margin-top: 50px;
-    margin-left: 80px;
-    margin-right: 10px;
+   
     width: 50%;
     height: 280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: F5F5F5;
+
   }
 
   .sections h2 {
@@ -99,4 +104,7 @@ body {
   }
 
 
-  
+  .menu {
+
+    margin-top: 60px;
+  }

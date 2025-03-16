@@ -1,5 +1,3 @@
-
-
 body {
   
   background-image:url('../../background/work.png') ;
@@ -61,7 +59,7 @@ body {
 
     align-items: center;
     display: flex;
-    flex-direction :row; 
+    flex-direction :column; 
     justify-content: center;
   }
 
@@ -78,7 +76,7 @@ body {
 
   .section-work {
     margin-top: 130px;
-    margin-left: 90px;
+	text-align: center;
     color: #f2e4e4;
     font-family: ashegia;
     font-weight: 100;
@@ -89,8 +87,8 @@ body {
     margin-top: 50px;
     margin-left: 70px;
     margin-right: 70px;
-    width: 50%;
-    height: 280px;
+    width: 80%;
+    height: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +97,7 @@ body {
   .sections h3 {
 
     color: white;
-    font-size: 50px;
+    font-size: 32px;
   }
 
   .card img {

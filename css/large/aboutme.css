@@ -41,6 +41,7 @@ body {
   .photo_moi {
     
     width: 280px ;
+    max-height: fit-content;
   }
 
   .descriptif {
@@ -49,6 +50,8 @@ body {
     display: flex;
     flex-direction: row;
     margin-bottom: 130px;
+    align-items: start;
+
   }
 
   .descriptif_paragraphes {
@@ -56,8 +59,7 @@ body {
     flex-direction: column ;
     padding-left: 120px;
     padding-right:120px ;
-    margin-top: 70px;
-    margin-left: 50px ;
+  
     color: #f2e4e4;
     font-family: benage;
     font-weight: 400;
