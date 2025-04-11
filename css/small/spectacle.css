@@ -137,6 +137,25 @@ body {
   background-repeat: no-repeat;
 }
 
+.card5 {
+
+  background: url("../../img/INDOMPTABLE_carte_empathie.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin-top: 180px;
+  margin-left: 50px;
+}
+
+.card6 {
+
+  background: url("../../img/INDOMPTABLE_journey_map.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  margin-top: 180px;
+  margin-right: 50px;
+  
+}
+
 h1{
 font-size: 12px ;
 }
